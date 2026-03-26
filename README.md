@@ -1,20 +1,22 @@
 # AppScout
 A lightweight, standalone PowerShell script that audits your Windows system for installed software. It bypasses the "noise" of system drivers and SDKs, providing a clean, categorized list of your actual applications and games.
 
-## Screenshots
+![License](https://img.shields.io/github/license/TBNRBERRY/AppScout?color=blue)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)
 
-<img src="https://github.com/TBNRBERRY/AppScout/blob/main/Main%20GUI%20-%20APPLICATIONS.png" width="343" height="421.5" /> <img src="https://github.com/TBNRBERRY/AppScout/blob/main/Main%20GUI%20-%20DEV%20%26%20CODING%20TOOLS.png" width="343" height="421.5" />
-<img src="https://github.com/TBNRBERRY/AppScout/blob/main/Main%20GUI%20-%20DRIVERS%20%26%20HARDWARE.png" width="343" height="421.5" /> <img src="https://github.com/TBNRBERRY/AppScout/blob/main/Main%20GUI%20-%20STEAM%20GAMES.png" width="343" height="421.5" />
-<img src="https://github.com/TBNRBERRY/AppScout/blob/main/Find%20Feature.png" width="343" height="421.5" /> <img src="https://github.com/TBNRBERRY/AppScout/blob/main/Find%20%26%20Replace%20Feature.png" width="343" height="421.5" />
+## 🌓 Modern Theming
+AppScout features a dynamic theming engine. Switch between **Dark Mode** (default) and **Light Mode** instantly using the custom-drawn icon in the bottom-left corner.
+
+<img src="https://github.com/TBNRBERRY/AppScout/blob/main/Screenshots/DarkMode%20Main.png" width="48%" /> <img src="https://github.com/TBNRBERRY/AppScout/blob/main/Screenshots/LightMode%20Main.png" width="48%" />
 
 ## Features
 - **Smart Categorization**: Automatically groups items into `STEAM GAMES`, `DEV TOOLS`, `DRIVERS`, and `APPLICATIONS`.
-- **Dual-Architecture Scanning**: Scans both 64-bit and 32-bit registry hives (`HKLM` and `HKCU`).
-- **Built-in Editor**: A GUI window allows you to live-edit the list before saving.
+- **Built-in Editor**: A GUI window allows you to live-edit the list before saving or copying.
 - **Advanced Tools**: 
   - `Ctrl + F` to Find.
   - `Ctrl + H` to Find and Replace.
   - `Copy All` to clipboard functionality.
+- **Dual-Architecture Scanning**: Scans both 64-bit and 32-bit registry hives (`HKLM` and `HKCU`).
 - **Clean Output**: Automatically excludes Windows updates, redistributables, and development "packs."
 
 ## How to Use
